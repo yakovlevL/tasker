@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "no-implicit-dependencies": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "no-console": false,
+    "member-access": [true, "no-public"]
+  },
+  "jsRules": {
+    "prettier": true,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "variable-name": false,
+    "no-shadowed-variable": {
+      "severity": "warn",
+      "options": {
+        "temporalDeadZone": false
+      }
+    },
+    "no-empty": { "severity": "warn" },
+    "curly": [true, "ignore-same-line"],
+    "forin": { "severity": "warn" }
+  },
+  "linterOptions": {}
+}

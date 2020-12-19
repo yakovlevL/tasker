@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015"
+    ],
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "outDir": "./dist/",
+    "jsxFactory": "react",
+    "jsx": "react-jsx",
+    "target": "es2016",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "paths": {
+      "$components": ["./components/"],
+      "$components/*": ["./components/*"],
+      "$util": ["./util"],
+      "$util/*": ["./util/*"],
+      "$services": ["./services/"],
+      "$services/*": ["./services/*"],
+      "$pages": ["./pages"],
+      "$pages/*": ["./pages/*"],
+      "$store": ["./store"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "node_modules/@types/react-native"
+  ]
+}
