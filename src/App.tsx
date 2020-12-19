@@ -5,14 +5,14 @@ import { store, StoreContext } from './store'
 
 import { GlobalStyles } from './global.css'
 import { theme } from './theme'
-import { Home } from './pages/Home'
+import { UI } from './pages/UI'
 
 export const App = () => (
   <ThemeProvider theme={theme}>
     <StoreContext.Provider value={store}>
       <GlobalStyles />
       {/* Content (Routes) */}
-      <Home />
+      <UI />
     </StoreContext.Provider>
   </ThemeProvider>
 )

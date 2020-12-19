@@ -83,6 +83,7 @@ export const StyledButton = styled.button.attrs<ButtonProps>(
 
           &.is-color--warn {
             color: ${theme.warn.default};
+            background-color: ${theme.warn.bg};
           }
         `
 
@@ -119,6 +120,7 @@ export const StyledButton = styled.button.attrs<ButtonProps>(
       case 'icon':
         return `
           padding: ${4 - borderWidth}px ${4 - borderWidth}px;
+          border-radius: ${borderRadius.circle} !important;
           min-height: 32px;
           min-width: 32px;
         `
@@ -129,7 +131,7 @@ export const StyledButton = styled.button.attrs<ButtonProps>(
         `
       default:
         return `
-          padding: ${16 - borderWidth}px ${32 - borderWidth}px;
+          padding: ${8 - borderWidth}px ${14 - borderWidth}px;
           min-height: 56px;
         `
     }
@@ -193,9 +195,9 @@ export const StyledButton = styled.button.attrs<ButtonProps>(
       switch (kind) {
         case 'secondary':
           return `
-            border: ${borderWidth}px solid ${theme.interactive.border};
+            border: ${borderWidth}px solid ${theme.warn.default};
             background: transparent;
-            color: ${theme.interactive.text};
+            color: ${theme.warn.default};
           `
         default:
           return `

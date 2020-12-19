@@ -24,18 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "paths": {
-      "$components": ["./components/"],
-      "$components/*": ["./components/*"],
-      "$util": ["./util"],
-      "$util/*": ["./util/*"],
-      "$services": ["./services/"],
-      "$services/*": ["./services/*"],
-      "$pages": ["./pages"],
-      "$pages/*": ["./pages/*"],
-      "$store": ["./store"]
-    }
+    "noEmit": true
   },
   "include": [
     "./src/**/*"

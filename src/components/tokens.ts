@@ -16,6 +16,7 @@ export const borderRadius = {
   square: '3px',
   tileLink: '8px',
   modal: '14px',
+  circle: '50%',
 }
 
 export const negativeSpacing = {

@@ -28,10 +28,10 @@ export const theme = {
   },
 
   interactive: {
-    bg: '#000',
+    bg: '#4DD599',
     fg: '#fff',
-    text: '#000',
-    border: '#000',
+    text: '#4DD599',
+    border: '#4DD599',
   },
 
   // Input borders
@@ -47,8 +47,9 @@ export const theme = {
     default: '#5875ff',
   },
   warn: {
-    default: '#ff5672',
+    default: '#9C9C9C',
     fg: '#fff',
+    bg: '#F4F6F8',
   },
   success: {
     default: '#02cf20',
