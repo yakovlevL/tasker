@@ -207,5 +207,5 @@ export const StyledButton = styled.button.attrs<ButtonProps>(
     }}
   }
 `
-export const Button = StyledButton // : FunctionComponent = () => {}
+export const Button = StyledButton
 export const ButtonGroup = StyledButtonGroup

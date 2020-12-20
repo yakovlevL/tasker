@@ -36,12 +36,12 @@ export const theme = {
 
   // Input borders
   input: {
-    border: '#cccccc',
+    border: '#EFEFEF',
     background: '#ffffff',
-    color: '#000',
-    activeBorder: '#000',
+    color: '#C7C7C7',
+    activeBorder: '#878787',
     activeBackground: '#ffffff',
-    activeColor: '#000',
+    activeColor: '#878787',
   },
   brand: {
     default: '#5875ff',
